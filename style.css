@@ -2,16 +2,16 @@
 @font-face
 {
     font-family: 'ParkLaneNF';
-    src: url('polices/Park Lane NF.ttf')format('truetype');
+    src: url('font/Park Lane NF.ttf')format('truetype');
     font-weight: normal;
     font-style: normal;
 
     font-family: 'Dayrom';
-    src: url('polices/Dayrom.eot');
-    src: url('polices/Dayrom.eot?#iefix') format('embedded-opentype'),
-         url('polices/Dayrom.woff') format('woff'),
-         url('polices/Dayrom.ttf') format('truetype'),
-         url('polices/Dayrom.svg#Dayrom') format('svg');
+    src: url('font/Dayrom.eot');
+    src: url('font/Dayrom.eot?#iefix') format('embedded-opentype'),
+         url('font/Dayrom.woff') format('woff'),
+         url('font/Dayrom.ttf') format('truetype'),
+         url('font/Dayrom.svg#Dayrom') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -27,7 +27,7 @@ p
 }
 body
 {
-    background: url(fond.jpg) no-repeat;
+    background: url(images/fond.jpg) no-repeat;
     opacity: 20px;
     background-size: 100%;
     font-style: normal;
@@ -44,16 +44,16 @@ body
     margin-top: 10px;
     text-align: center;
 }
-h1, h3,
+h1, h3
 {
-     font-family: 'cursive;';
+     font-family: 'Park Lane NF';
      margin: auto;
      color: blue;
 }
 h2
 {
     text-align: left;
-    margin-left: 25px;`
+    margin-left: 25px;
     font-family: 'Park Lane NF';
 }
 #chapitre1
@@ -248,7 +248,7 @@ img
 {
     height: 257px;
     border-radius: 27px;
-    background: url('logo3.png')no-repeat;
+    background: url('images/logo3.png')no-repeat;
     background-size: 100%;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 20px;
