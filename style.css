@@ -1,0 +1,292 @@
+/* def police d'écriture */
+@font-face
+{
+    font-family: 'ParkLaneNF';
+    src: url('polices/Park Lane NF.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Dayrom';
+    src: url('polices/Dayrom.eot');
+    src: url('polices/Dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/Dayrom.woff') format('woff'),
+         url('polices/Dayrom.ttf') format('truetype'),
+         url('polices/Dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Eléments principaux*/
+a
+{
+    color: black;
+    cursor: pointer;
+}
+p
+{
+     margin: 0;
+}
+body
+{
+    background: url(fond.jpg) no-repeat;
+    opacity: 20px;
+    background-size: 100%;
+    font-style: normal;
+    font-family: 'Park Lane NF', 'Dayrom', 'sans-serif';
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+#bloc_page
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+h1, h3,
+{
+     font-family: 'cursive;';
+     margin: auto;
+     color: blue;
+}
+h2
+{
+    text-align: left;
+    margin-left: 25px;`
+    font-family: 'Park Lane NF';
+}
+#chapitre1
+{
+     margin-top: Opx;
+}
+
+/*Menu deroulant*/
+
+nav
+{
+     display: flex;
+     flex-direction: row-reverse;
+}
+
+li
+{
+    font-family: Park Lane NF;
+    font-size: 40px;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li
+{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    text-align: rigth;
+}
+nav ul li a:hover
+{
+    background-color: blue;
+    opacity: 1;
+    color: white;
+}
+
+nav ul li ul li
+{
+    display: none;
+}
+nav ul li:hover ul li
+{
+    display: block;
+}
+/*Menu deroulant*/
+
+/*1er bloc*/
+
+#enter
+{
+    font-weight:normal;
+    font-family: "cursive", "sans-serif";
+    font-size: 30px;
+}
+
+section
+{
+    font-family: "cursive", "sans-serif";
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+aside
+{
+    font-style: normal;
+    font-family: "cursive", "sans-serif";
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    display: block;
+    margin-top: 30px;
+}
+
+/*l'enseigne*/
+
+#enseigne
+{
+    border-radius: 12px;
+    border: solid; black 3px;
+    text-align: center;
+    margin-top: 67px;
+    box-shadow: 0px 8px 8px black;
+    margin-left: 800px;
+    margin-right: 800px;
+
+}
+
+
+/*photos+legend*/
+
+img
+{
+     margin-left: 10px;
+}
+
+#presentation
+{
+    text-align: left;
+    margin-top: 10px;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+}
+#presentation p
+{
+     margin-left: 25px;
+}
+
+#s1
+{
+    text-align: left;    
+    margin-left: 0px;
+    margin-bottom: 25px;
+}
+.boisson
+{
+     display: flex;
+     flex-direction: row;
+}
+#b1
+{
+    text-align: left;    
+    margin-left: 0px;
+}
+#b2
+{   
+    margin-left: 0px;
+}
+#b3
+{  
+    margin-left: 0px;
+}
+#b4
+{
+    margin-left: 0px;
+}
+
+.bouf
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#p1
+{    
+    margin-left: 0px;
+    text-align: left;
+}
+#p2
+{
+     
+    margin-left: 0px;
+    text-align: left;
+}
+#p3
+{    
+    margin-left: 0px;
+    text-align: left;
+}
+
+.fiche
+{
+     display: flex;
+     flex-direction: row;
+}
+#f1
+{
+     margin-left: 0px;
+}
+#f2
+{
+     margin-left: 0px;
+}
+#f3
+{
+     margin-left:   0px;
+}
+#C
+{
+     margin-left: -1022px;
+}
+/*banniere*/
+
+#banniere_image
+{
+    height: 257px;
+    border-radius: 27px;
+    background: url('logo3.png')no-repeat;
+    background-size: 100%;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+/*fin de page*/
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border: dashed 2px black;
+    border-left: none;
+    border-bottom: none;
+    margin-left: 10px;
+    border-right: none;
+    font-size: 20px;
+}
+footer p
+{
+     margin-top: 25px;
+}
+footer a
+{
+     text-decoration: none;
+}
+#info
+{
+     display: flex;
+     flex-direction: row;
+     align-content: stretch;
+     justify-content: space-evenly;
+     align-items: baseline;
+}
+#réseaux
+{
+    margin-bottom: 40px;
+}
