@@ -35,6 +35,8 @@ body
     text-align: center;
     font-size: 25px;
     background-color: rgb(255, 232, 168);
+    max-width: 2630px;
+    max-height: 2000px;
 }
 #bloc_page
 {
@@ -173,15 +175,13 @@ img
 
 header > img
 {
-    height: 257px;
     border-radius: 27px;
-    background: url('images/logo3.png')no-repeat;
     background-size: 100%;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 20px;
     margin-top: 0px;
-    margin-left: 650px;
-    margin-right: 650px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 /*fin de page*/
 
