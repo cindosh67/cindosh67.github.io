@@ -27,14 +27,13 @@ p
 }
 body
 {
-    background: url(images/fond.jpg) no-repeat;
-    opacity: 20px;
     background-size: 100%;
     font-style: normal;
     font-family: 'Park Lane NF', 'Dayrom', 'sans-serif';
     color: black;
     text-align: center;
     font-size: 25px;
+    background-color: rgb(255, 232, 168);
 }
 #bloc_page
 {
@@ -52,9 +51,10 @@ h1, h3
 }
 h2
 {
-    text-align: left;
-    margin-left: 25px;
+    text-align: center;
+    margin-left: 0px;
     font-family: 'Park Lane NF';
+    margin-top: 80px;
 }
 #chapitre1
 {
@@ -136,17 +136,7 @@ aside
 
 /*l'enseigne*/
 
-#enseigne
-{
-    border-radius: 12px;
-    border: solid; black 3px;
-    text-align: center;
-    margin-top: 67px;
-    box-shadow: 0px 8px 8px black;
-    margin-left: 800px;
-    margin-right: 800px;
 
-}
 
 
 /*photos+legend*/
@@ -156,19 +146,17 @@ img
      margin-left: 10px;
 }
 
-#presentation
+#presentation > div
 {
-    text-align: left;
-    margin-top: 10px;
+    width: 100%;
+    max-width: 1500px;
+    text-align: center;
+    margin-top: 80px;
     font-family: cursive;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-#presentation p
-{
-     margin-left: 25px;
-}
-
 #s1
 {
     text-align: left;    
@@ -240,11 +228,11 @@ img
 }
 #C
 {
-     margin-left: -1022px;
+     
 }
 /*banniere*/
 
-#banniere_image
+header > img
 {
     height: 257px;
     border-radius: 27px;
