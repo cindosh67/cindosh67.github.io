@@ -20,6 +20,7 @@ a
 {
     color: black;
     cursor: pointer;
+    text-decoration: none;
 }
 p
 {
@@ -49,12 +50,12 @@ h1, h3
      margin: auto;
      color: blue;
 }
-h2
+#presentation h2
 {
     text-align: center;
     margin-left: 0px;
     font-family: 'Park Lane NF';
-    margin-top: 80px;
+    margin-top: 50px;
 }
 #chapitre1
 {
@@ -136,7 +137,13 @@ aside
 
 /*l'enseigne*/
 
-
+#enseigne > img
+{
+    max-height: 250px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 
 
 /*photos+legend*/
@@ -144,92 +151,24 @@ aside
 img
 {
      margin-left: 10px;
+     margin-bottom: 20px;
 }
 
-#presentation > div
+#presentation
 {
     width: 100%;
-    max-width: 1500px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 0px;
     font-family: cursive;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
 }
-#s1
+#presentation a img
 {
-    text-align: left;    
-    margin-left: 0px;
-    margin-bottom: 25px;
-}
-.boisson
-{
-     display: flex;
-     flex-direction: row;
-}
-#b1
-{
-    text-align: left;    
-    margin-left: 0px;
-}
-#b2
-{   
-    margin-left: 0px;
-}
-#b3
-{  
-    margin-left: 0px;
-}
-#b4
-{
-    margin-left: 0px;
+    display: revert;
 }
 
-.bouf
-{
-    display: flex;
-    flex-direction: row;
-}
 
-#p1
-{    
-    margin-left: 0px;
-    text-align: left;
-}
-#p2
-{
-     
-    margin-left: 0px;
-    text-align: left;
-}
-#p3
-{    
-    margin-left: 0px;
-    text-align: left;
-}
-
-.fiche
-{
-     display: flex;
-     flex-direction: row;
-}
-#f1
-{
-     margin-left: 0px;
-}
-#f2
-{
-     margin-left: 0px;
-}
-#f3
-{
-     margin-left:   0px;
-}
-#C
-{
-     
-}
 /*banniere*/
 
 header > img
