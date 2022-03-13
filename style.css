@@ -170,33 +170,22 @@ img
 
 /*banniere*/
 
-.image_responsive {
-width: 50%;
-height: auto;
-box-shadow: 0px 4px 4px #1c1a19;
+.image_responsive 
+{
+    width: 50%;
+    height: auto;
+    box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 20px;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
     border-radius: 27px;
-
 }
 
 
 /*fin de page*/
 
-footer
-{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    border: dashed 2px black;
-    border-left: none;
-    border-bottom: none;
-    margin-left: 10px;
-    border-right: none;
-    font-size: 20px;
-}
+
 footer p
 {
      margin-top: 25px;
@@ -207,13 +196,17 @@ footer a
 }
 #info
 {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     align-content: stretch;
-     justify-content: space-evenly;
-     align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border: dashed 2px black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    flex-wrap: wrap;
 }
+
 #réseaux
 {
     margin-bottom: 40px;
