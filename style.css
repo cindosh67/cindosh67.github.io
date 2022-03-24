@@ -15,10 +15,17 @@
     font-weight: normal;
     font-style: normal;
 }
+
 /*Eléments principaux*/
+
+html
+{
+    scroll-behavior: smooth;
+}
+
 a
 {
-    color: black;
+    color: blue;
     cursor: pointer;
     text-decoration: none;
 }
@@ -34,7 +41,7 @@ body
     color: black;
     text-align: center;
     font-size: 25px;
-    background-color: rgb(255, 232, 168);
+    background-color: rgb(255,228,181);
     max-width: 2630px;
     max-height: 2000px;
 }
@@ -59,10 +66,8 @@ h1, h3
     font-family: 'Park Lane NF';
     margin-top: 50px;
 }
-#chapitre1
-{
-     margin-top: Opx;
-}
+
+/*Elément principaux*/
 
 /*Menu deroulant*/
 
@@ -109,13 +114,6 @@ nav ul li:hover ul li
 
 /*1er bloc*/
 
-#enter
-{
-    font-weight:normal;
-    font-family: "cursive", "sans-serif";
-    font-size: 30px;
-}
-
 section
 {
     font-family: "cursive", "sans-serif";
@@ -123,15 +121,20 @@ section
     margin-right: auto;
     margin-left: auto;
 }
-aside
+article
 {
+    font-weight: normal;
     font-style: normal;
     font-family: "cursive", "sans-serif";
     margin-right: auto;
     margin-left: auto;
-    font-size: 25px;
+    font-size: 30px;
     display: block;
     margin-top: 30px;
+}
+aside
+{
+    font-size: 25px;
 }
 
 /*l'enseigne*/
@@ -192,10 +195,11 @@ footer p
 }
 footer a
 {
-     text-decoration: none;
+     text-decoration: underline;
 }
 #info
 {
+    color: blue;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
